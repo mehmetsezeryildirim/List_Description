@@ -1,0 +1,21 @@
+{
+  "name": "objective1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests:api": "playwright test --config=api.config.ts",
+    "tests:ui": "playwright test --config=ui.config.ts",
+    "clean:env": "playwright test --config=clean.config.ts"
+  },
+  "keywords": [],
+  "author": "Mehmet Sezer YILDIRIM",
+  "devDependencies": {
+    "@cucumber/cucumber": "9.1.2",
+    "@cucumber/gherkin": "26.2.0",
+    "@fast-csv/parse": "^4.3.6",
+    "@playwright/test": "^1.36.2",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3"
+  }
+}

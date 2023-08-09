@@ -25,10 +25,10 @@ test.describe('UI Testing' , () => {
       console.log(element.Name + " | " + description);
       
       resultList.push(element.Name + " | " + description);
+      WriteStandardList(JSON.stringify(resultList, null, 2));
     });
   });
   
-  WriteStandardList(JSON.stringify(resultList, null, 2));
 });
 
 function GetStandardList() {

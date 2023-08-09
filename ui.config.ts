@@ -7,7 +7,7 @@ export default defineConfig({
     baseURL: 'https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET',
     screenshot: 'only-on-failure',
     browserName: 'chromium',
-    headless: false
+    headless: true
   },
   projects: [
     {

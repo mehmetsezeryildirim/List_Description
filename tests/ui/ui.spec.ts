@@ -9,8 +9,7 @@ test.describe('UI Testing' , () => {
   
   list.forEach(element => {
     debugger;
-    test('Find description', async ({ page}) => {
-
+    test(`Find description for ${element.Name}`, async ({ page}) => {
       await page.goto("https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET");
       const searchBox = page.locator("#STAND_REF");
       await searchBox.click();
